@@ -1,0 +1,23 @@
+#summary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    font-size: 2rem;
+    font-family: monospace;
+    color: white;
+}
+
+#completeBtn{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+#completeBtn:hover{
+    transform: scale(1.1);
+}

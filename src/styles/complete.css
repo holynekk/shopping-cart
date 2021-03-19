@@ -1,0 +1,13 @@
+#complete{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 2rem;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 5rem;
+}

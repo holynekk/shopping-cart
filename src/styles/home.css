@@ -1,0 +1,23 @@
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shopBtn{
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1rem;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+#shopBtn:hover{
+    transform: scale(1.03);
+}
