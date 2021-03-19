@@ -17,7 +17,7 @@ header{
 
 #just-header{
     font-family: "header-font";
-    font-size: 3rem;
+    font-size: 4rem;
     color: white
 }
 
@@ -28,6 +28,7 @@ nav{
 
 ul{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-family: monospace;
     list-style: none;
@@ -53,5 +54,17 @@ a{
 #cart>#cart-icon{
     margin: 10px;
     transform: scale(1.4);
+}
+
+@media (max-width: 900px){
+    ul{
+        flex-direction: column;
+    }
+    li>a{
+        font-size: 1.2rem;
+    }
+    #just-header{
+        font-size: 3rem;
+    }
 }
 

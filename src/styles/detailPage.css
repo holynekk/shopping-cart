@@ -35,8 +35,8 @@
 }
 
 #item-image{
-    height: 400px;
-    width: 500px;
+    height: 28vw;
+    width: 35vw;
 }
 
 #detailed-info{
@@ -89,4 +89,23 @@
     font-size: 1.2rem;
     line-height: 1.4rem;
     list-style-type: circle;
+}
+
+@media(max-width: 1000px){
+    #backBtn{
+        font-size: 1.5rem;
+    }
+    #item-components{
+        font-size: 0.8rem;
+    }
+    #item-name{
+        font-size: 2rem;
+    }
+    #item-price{
+        font-size: 1rem;
+    }
+    #addBtn{
+        font-size: 0.8rem;
+    }
+    
 }

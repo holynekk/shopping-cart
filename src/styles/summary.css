@@ -21,3 +21,10 @@
 #completeBtn:hover{
     transform: scale(1.1);
 }
+
+
+@media (max-width: 800px){
+    #summary{
+        flex-direction: column;
+    }
+}
